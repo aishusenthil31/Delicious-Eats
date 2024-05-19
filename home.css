@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    background-image: url('home image');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #f46608;
+    font-size: larger ;
+
+}
+
+header {
+    background-color: #fdf6f6;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#000000;
+    padding: 4px;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    scale: 1.5;
+    transform: translateY(-3px);
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+   
+}
+
+.menu {
+    padding: 50px 0;
+}
+
+.dish {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dish img {
+    width: 100%;
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
